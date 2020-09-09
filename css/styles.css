@@ -4,6 +4,20 @@ body {
 
 .front-page-header {
     background-color: #2d4059;
+    text-align: center;
+    padding-top: 8em;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 225px;
+    left: 23.5%;
 }
 
 .front-page-header > h1 {
@@ -11,7 +25,7 @@ body {
 }
 
 .front-page-header > p {
-    margin-block-end: 0;
+    margin-block-end: 2;
 }
 
 .front-page-header > * {
