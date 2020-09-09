@@ -21,11 +21,15 @@ body {
 }
 
 .front-page-header > h1 {
+    font-size: 42pt;
     margin-block-start: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .front-page-header > p {
     margin-block-end: 2;
+    font-size: 10pt;
+    font-family: 'Comfortaa', cursive;
 }
 
 .front-page-header > * {
