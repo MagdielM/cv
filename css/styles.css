@@ -36,12 +36,24 @@ body {
     color: #e5e5e5;
 }
 
-.description-div-1 {
-    background-color: #decdc3;
-    height: 500px;
+.middle-container {
 }
 
-.description-div-2 {
-    background-color: #ea5455;
-    height: 500px;
+#portrait {
+    width: 200px;
+}
+
+#dotnet-database {
+    width: 100px;
+}
+
+#webpage-code {
+    width: 100px;
+}
+
+#game-controller {
+    width: 120px;
+}
+
+.bottom-container {
 }
