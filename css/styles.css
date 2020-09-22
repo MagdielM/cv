@@ -47,7 +47,8 @@ h3 {
 }
 
 @media (max-width: 1450px) {
-    .bottom-cloud, .top-cloud {
+    .bottom-cloud,
+    .top-cloud {
         display: none;
     }
 }
@@ -110,7 +111,8 @@ h3 {
     margin-left: 30px;
 }
 
-.skill-row h3, .skill-row p {
+.skill-row h3,
+.skill-row p {
     text-align: left;
 }
 
@@ -178,7 +180,7 @@ h3 {
 
 .contact-me > .btn {
     display: inline-block;
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
     text-decoration: none;
     color: #e4e4e4;
     padding: 1.5em;
@@ -191,17 +193,17 @@ h3 {
 }
 
 .bottom-container {
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
     text-align: center;
     background-color: #909091;
     padding: 3.5em;
 }
 
 .social-links {
-    display: inline-flex;
+    display: flex;
     justify-content: space-around;
+    margin: auto;
     width: 33%;
-
 }
 
 .social-links > a {
