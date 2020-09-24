@@ -8,8 +8,7 @@
 */
 
 :root {
-    --server-icon-size: 7.25em;
-    --joystick-icon-size: 7.25em;
+    --icon-size: 7.25em;
 }
 
 body {
@@ -99,21 +98,24 @@ h3 {
 .skill-row > div {
     border-radius: 50%;
     padding: 3em;
+    margin: auto;
 }
 
-.skill-row > .left-float {
-    float: left;
-    margin-right: 30px;
-}
-
-.skill-row > .right-float {
-    float: right;
-    margin-left: 30px;
-}
-
-.skill-row h3,
-.skill-row p {
-    text-align: left;
+@media (min-width: 1250px) {
+    .skill-row > .left-float {
+        float: left;
+        margin-right: 30px;
+    }
+    
+    .skill-row > .right-float {
+        float: right;
+        margin-left: 30px;
+    }
+    
+    .skill-row h3,
+    .skill-row p {
+        text-align: left;
+    }
 }
 
 #portrait {
@@ -127,6 +129,8 @@ h3 {
 
 #dotnet-database {
     background-color: #145374;
+    width: var(--icon-size);
+    height: var(--icon-size);
 }
 
 #dotnet-database > svg {
@@ -143,14 +147,14 @@ h3 {
 
 #webpage-code {
     background-color: #e0cbbc;
-    width: var(--server-icon-size);
-    height: var(--server-icon-size);
+    width: var(--icon-size);
+    height: var(--icon-size);
 }
 
 #webpage-code > svg {
-    width: calc(var(--server-icon-size) - 0.5em);
+    width: calc(var(--icon-size) - 0.5em);
     position: relative;
-    bottom: 15px;
+    bottom: 12px;
     left: 1px;
     fill: #c05b46;
 }
@@ -161,16 +165,16 @@ h3 {
 
 #game-controller {
     background-color: #db654d;
-    width: var(--joystick-icon-size);
-    height: var(--joystick-icon-size);
+    width: var(--icon-size);
+    height: var(--icon-size);
 }
 
 #game-controller > svg {
-    width: calc(var(--joystick-icon-size) * 1.2);
-    height: calc(var(--joystick-icon-size) * 1.2);
+    width: calc(var(--icon-size) * 1.2);
+    height: calc(var(--icon-size) * 1.2);
     position: relative;
-    right: 8px;
-    bottom: 16px;
+    right: 12px;
+    bottom: 20px;
     fill: #226488;
 }
 
@@ -201,9 +205,9 @@ h3 {
 
 .social-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: auto;
-    width: 33%;
+    width: 20em;
 }
 
 .social-links > a {
